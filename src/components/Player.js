@@ -1,5 +1,5 @@
 // Import necessary modules
-import { useEffect, useRef, useState } from "react"; // useState and useEffect from React
+import { useEffect, useState } from "react"; // useState and useEffect from React
 import useSound from "use-sound"; // Custom hook for playing sounds
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai"; // Play and pause icons
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi"; // Skip next and previous icons
@@ -141,7 +141,7 @@ useEffect(() => {
   return (
     <div className="component">
       <h2>Playing Now</h2>
-      <img className="musicCover" src="https://picsum.photos/200/200" />
+      <img className="musicCover" src="https://picsum.photos/200/200" alt="" />
       <div>
         <h3 className="title">{songs[currentSongIndex].title}</h3>
         <p className="subTitle">{songs[currentSongIndex].artist}</p>
