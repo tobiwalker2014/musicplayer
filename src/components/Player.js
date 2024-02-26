@@ -6,19 +6,25 @@ import { BiSkipNext, BiSkipPrevious } from "react-icons/bi"; // Skip next and pr
 import { IconContext } from "react-icons"; // Context for setting icon properties
 
 // Import sound files
-import qala from "../assets/qala.mp3"; // Sound file to be played
-import joanna from "../assets/joanna.mp3"; // Sound file to be played
+import adagio from "../assets/adagio.mp3"; // Sound file to be played
+import beethoven from "../assets/beethoven.mp3"; // Sound file to be played
+import spangled from "../assets/spangled.mp3"; // Sound file to be played
 
 const songs = [
   {
-    title: "Rubaiyyan",
-    artist: "Qala",
-    file: qala
+    title: "Adagio",
+    artist: "Adagio",
+    file: adagio
   }, 
   {
-    title: "Joanna",
-    artist: "Joanna",
-    file: joanna
+    title: "Beethoven",
+    artist: "Beethoven",
+    file: beethoven
+  },
+  {
+    title: "Star Spangled Banner",
+    artist: "Francis Scott Keys",
+    file: spangled
   }
 ]
 
